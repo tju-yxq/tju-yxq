@@ -7,9 +7,6 @@
 <a href="https://github.com/tju-yxq">
   <img src="https://img.shields.io/github/followers/tju-yxq?style=social" alt="GitHub followers" />
 </a>
-<a href="mailto:yu2651701064@tju.edu.cn">
-  <img src="https://img.shields.io/badge/Email-yu2651701064%40tju.edu.cn-blue?style=flat-square&logo=gmail" alt="Email" />
-</a>
 <a href="mailto:3023209091@tju.edu.cn">
   <img src="https://img.shields.io/badge/Backup%20Email-3023209091%40tju.edu.cn-2ea44f?style=flat-square&logo=gmail" alt="Backup Email" />
 </a>
@@ -82,11 +79,50 @@
 
 ---
 
-## 🏆 Trophies
+## ✨ Highlights
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tju-yxq&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophies" />
+
+<!-- Quick badges (stable) -->
+
+<a href="https://github.com/tju-yxq?tab=repositories">
+  <img src="https://img.shields.io/badge/Repos-View-181717?style=flat-square&logo=github" alt="Repos" />
+</a>
+<a href="https://github.com/tju-yxq?tab=followers">
+  <img src="https://img.shields.io/badge/Followers-Follow-1f6feb?style=flat-square&logo=github" alt="Followers" />
+</a>
+<a href="https://github.com/tju-yxq">
+  <img src="https://img.shields.io/badge/Stars-Profile-ffd33d?style=flat-square&logo=github&logoColor=111" alt="Stars" />
+</a>
+
 </div>
+
+---
+
+## 🧾 GitHub Snapshot
+
+<div align="center">
+
+<!-- These summary cards are usually very stable -->
+
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tju-yxq&theme=tokyonight" alt="Profile Details" />
+
+<br/>
+
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tju-yxq&theme=tokyonight" alt="Stats" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tju-yxq&theme=tokyonight&utcOffset=8" alt="Productive Time" />
+
+</div>
+
+---
+
+## 📌 Featured Projects
+
+<!-- Replace with your real pinned projects -->
+
+* **Project A** — one-line description (link)
+* **Project B** — one-line description (link)
+* **Project C** — one-line description (link)
 
 ---
 
