@@ -20,7 +20,8 @@
   - 生成式推荐模型colocation
   - 基于量多模态数据的神经系统疾病风险预测
 - 🌱 **Currently Learning**
-  -  
+  -  MIT-Missing-Semester(https://missing-semester-cn.github.io/)[https://missing-semester-cn.github.io/]
+  -  国立台湾大学：李宏毅机器学习(https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php)[https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php]
 - 📫 **Contact**: 3023209091@tju.edu.cn
 
 ---
