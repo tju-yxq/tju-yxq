@@ -31,8 +31,6 @@
   
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/tju-yxq)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/tju-yxq)
-
 
 </div>
 
