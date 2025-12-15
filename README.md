@@ -1,11 +1,22 @@
 <div align="center">
-  
-# 👋 Hi, I'm Yu Xinqiang (喻新强)
+
+# 👋 Hi, I'm xdz!
 
 ### 🔐 Cyberspace Security Student @ Tianjin University
 
-[![GitHub followers](https://img.shields.io/github/followers/tju-yxq?style=social)](https://github.com/tju-yxq)
-[![Email](https://img.shields.io/badge/Email-yu2651701064%40tju.edu.cn-blue?style=flat-square&logo=gmail)](mailto:yu2651701064@tju.edu.cn)
+<a href="https://github.com/tju-yxq">
+  <img src="https://img.shields.io/github/followers/tju-yxq?style=social" alt="GitHub followers" />
+</a>
+<a href="mailto:yu2651701064@tju.edu.cn">
+  <img src="https://img.shields.io/badge/Email-yu2651701064%40tju.edu.cn-blue?style=flat-square&logo=gmail" alt="Email" />
+</a>
+<a href="mailto:3023209091@tju.edu.cn">
+  <img src="https://img.shields.io/badge/Backup%20Email-3023209091%40tju.edu.cn-2ea44f?style=flat-square&logo=gmail" alt="Backup Email" />
+</a>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=tju-yxq&color=blueviolet&style=flat-square" alt="Profile Views" />
 
 </div>
 
@@ -13,52 +24,120 @@
 
 ## 🚀 About Me
 
-- 🎓 **Major**: Cyberspace Security @ Tianjin University
-- 🎯 **Research Focus**: 
-  - 🎬 视频生成模型推理加速
-  - ⚡ VLA and World model
-  - 生成式推荐模型colocation
-  - 基于量多模态数据的神经系统疾病风险预测
-- 🌱 **Currently Learning**
-  -  MIT-Missing-Semester[https://missing-semester-cn.github.io/]
-  -  国立台湾大学：李宏毅机器学习[https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php]
-  -  [![MIT6.1600: Foundations of Computer Security](https://61600.csail.mit.edu/2023/)
-- 📫 **Contact**: 3023209091@tju.edu.cn
+* 🎓 **Major**: Cyberspace Security @ Tianjin University
+* 🎯 **Research Interests**:
+
+  * 🎬 **Inference Acceleration for Video Generation Models**
+  * ⚡ **VLA (Vision-Language-Action) & World Models**
+  * 🧩 **Colocation for Generative Recommendation Models**
+  * 🧠 **Neurological Disease Risk Prediction with Large-Scale Multimodal Data**
+* 🌱 **Currently Learning**
+
+  * [MIT: The Missing Semester of Your CS Education (CN)](https://missing-semester-cn.github.io/)
+  * [NTU (Hung-yi Lee): Machine Learning (2025 Spring)](https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php)
+  * [MIT 6.1600: Foundations of Computer Security (2023)](https://61600.csail.mit.edu/2023/)
+* 📫 **Contact**: [3023209091@tju.edu.cn](mailto:3023209091@tju.edu.cn)
+
+---
+
+## 🧰 Tech Stack (Optional)
+
+<!-- Feel free to add/remove badges based on what you actually use -->
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Linux-111?style=flat-square&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-111?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-111?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-111?style=flat-square&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-111?style=flat-square&logo=git&logoColor=white" />
+</div>
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/tju-yxq)
 
+<!-- Main stats -->
+
+<a href="https://github.com/tju-yxq">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+</a>
+
+<!-- Streak -->
+
+<a href="https://github.com/tju-yxq">
+  <img height="165" src="https://streak-stats.demolab.com?user=tju-yxq&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</a>
+
+<br/>
+
+<!-- Top languages -->
+
+<a href="https://github.com/tju-yxq">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</a>
 
 </div>
 
 ---
 
+## 🏆 Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=tju-yxq&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophies" />
+</div>
+
+---
 
 ## 📈 Contribution Graph
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=tju-yxq&theme=tokyo-night&hide_border=true)](https://github.com/tju-yxq)
+<div align="center">
+  <a href="https://github.com/tju-yxq">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tju-yxq&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+  </a>
+</div>
 
 ---
 
+## 🧾 Profile Summary (Extra)
 
 <div align="center">
 
-### 📫 Let's Connect!
+<img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tju-yxq&theme=tokyonight" alt="Profile Details" />
 
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/tju-yxq)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yu2651701064@tju.edu.cn)
+<br/>
+
+<img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tju-yxq&theme=tokyonight" alt="Repos Per Language" />
+<img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tju-yxq&theme=tokyonight" alt="Most Commit Language" />
+
+</div>
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=tju-yxq&color=blueviolet&style=flat-square)
+## 🤝 Let's Connect
+
+<div align="center">
+  <a href="https://github.com/tju-yxq">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  <a href="mailto:yu2651701064@tju.edu.cn">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+
+*"Optimizing AI models, one operator at a time."* 🚀
 
 **⭐ From [tju-yxq](https://github.com/tju-yxq) with 💙**
 
-*"Optimizing AI models, one operator at a time"* 🚀
-
 </div>
+
+<!--
+Optional (Cool but needs GitHub Action setup):
+- Contribution Snake: https://github.com/Platane/snk
+- WakaTime stats (needs WakaTime account + token)
+-->
