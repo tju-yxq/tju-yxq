@@ -22,6 +22,7 @@
 - 🌱 **Currently Learning**
   -  MIT-Missing-Semester[https://missing-semester-cn.github.io/]
   -  国立台湾大学：李宏毅机器学习[https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php]
+  -  [![MIT6.1600: Foundations of Computer Security](https://61600.csail.mit.edu/2023/)
 - 📫 **Contact**: 3023209091@tju.edu.cn
 
 ---
