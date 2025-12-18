@@ -12,6 +12,14 @@
 
 <sub>“Security-first engineer with a soft spot for neon lights and 2D worlds.”</sub>
 
+<p>
+  <a href="#-spotlight">Spotlight</a> ·
+  <a href="#-tech-arsenal">Tech</a> ·
+  <a href="#-signal--stats">Stats</a> ·
+  <a href="#-contribution-snake">Snake</a> ·
+  <a href="#-lets-connect">Contact</a>
+</p>
+
 </div>
 
 ---
@@ -19,12 +27,14 @@
 ## 🚀 Spotlight
 
 - 🎓 **Cyberspace Security** @ Tianjin University — turning research into production-ready infra.
+- 🏆 **Known for**: squeezing latency out of model serving, battle-testing pipelines, and translating research into shipping code.
 - 🎯 **Current missions**:
   - 🎬 Inference acceleration for next-gen **video generation**.
   - ⚡ **VLA & world models** for perception–action loops.
   - 🧩 **Colocation** and scheduling for generative recommenders.
   - 🧠 Multimodal modeling for **neurological risk prediction**.
 - 🌱 **Learning playlist**: [MIT Missing Semester (CN)](https://missing-semester-cn.github.io/) · [NTU ML 2025 (Hung-yi Lee)](https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php) · [MIT 6.1600 Security](https://61600.csail.mit.edu/2023/)
+- 📌 **Now shipping**: automation-heavy workflows, observability-first systems, and a sprinkle of anime aesthetics.
 
 ---
 
@@ -45,6 +55,7 @@
 - 📺 2D lover with a weakness for mecha openings and electric-blue palettes.
 - 🎧 Coding playlist: city pop, synthwave, and anime OSTs.
 - 🎮 When AFK: rhythm games, garage kits, and chasing the next cosplay festival.
+- ✨ Motto: *Ship boldly, stay curious, keep it kawaii.*
 
 ---
 
