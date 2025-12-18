@@ -1,0 +1,35 @@
+diff --git a/.github/workflows/contribution-snake.yml b/.github/workflows/contribution-snake.yml
+new file mode 100644
+index 0000000000000000000000000000000000000000..1a13115a1804192784d888ccc79fa1f139b40a38
+--- /dev/null
++++ b/.github/workflows/contribution-snake.yml
+@@ -0,0 +1,29 @@
++name: Generate contribution snake
++
++on:
++  schedule:
++    - cron: "0 0 * * *" # every midnight UTC
++  workflow_dispatch:
++  push:
++    branches:
++      - main
++      - master
++
++jobs:
++  build:
++    runs-on: ubuntu-latest
++    permissions:
++      contents: write
++    steps:
++      - name: Generate snake animation
++        uses: Platane/snk@v3
++        with:
++          github_user_name: tju-yxq
++          outputs: dist/snake.svg
++
++      - name: Publish to GitHub Pages (output branch)
++        uses: peaceiris/actions-gh-pages@v4
++        with:
++          github_token: ${{ secrets.GITHUB_TOKEN }}
++          publish_dir: dist
++          publish_branch: output
