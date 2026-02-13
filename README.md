@@ -7,19 +7,9 @@
 <p>
   <a href="https://github.com/tju-yxq"><img src="https://img.shields.io/github/followers/tju-yxq?style=social" alt="GitHub followers" /></a>
   <a href="mailto:3023209091@tju.edu.cn"><img src="https://img.shields.io/badge/Contact-3023209091%40tju.edu.cn-2ea44f?style=flat-square&logo=gmail" alt="Primary Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=tju-yxq&color=blueviolet&style=flat-square" alt="Profile Views" />
 </p>
 
 <sub>“Security-first engineer with a soft spot for neon lights and 2D worlds.”</sub>
-
-<p>
-  <a href="#-spotlight">Spotlight</a> ·
-  <a href="#-tech-arsenal">Tech</a> ·
-  <a href="#-signal--stats">Stats</a> ·
-  <a href="#-contribution-snake">Snake</a> ·
-  <a href="#-lets-connect">Contact</a>
-</p>
-
 </div>
 
 ---
