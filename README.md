@@ -51,6 +51,4 @@
 
 "Optimizing AI models with cyberpunk energy and anime spirit." 🚀
 
-**⭐ From [tju-yxq](https://github.com/tju-yxq) with 💙**
-
 </div>
