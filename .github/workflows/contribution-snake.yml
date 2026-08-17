@@ -24,7 +24,10 @@ jobs:
 
       - name: Push to output branch
         run: |
-          cd dist
+          mkdir -p /tmp/output
+          cp dist/snake.svg /tmp/output/
+          cp dist/snake-dark.svg /tmp/output/ 2>/dev/null || true
+          cd /tmp/output
           git init
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
