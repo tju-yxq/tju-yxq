@@ -23,7 +23,10 @@ jobs:
             dist/snake-dark.svg
 
       - name: Push to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git config --global --unset credential.helper || true
           mkdir -p /tmp/output
           cp dist/snake.svg /tmp/output/
           cp dist/snake-dark.svg /tmp/output/ 2>/dev/null || true
@@ -34,5 +37,5 @@ jobs:
           git add .
           git commit -m "chore: update contribution snake"
           git branch -M output
-          git remote add origin "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           git push --force origin output
