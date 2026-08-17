@@ -2,7 +2,7 @@
 
 # ✨ Hi, I'm xdz — building the future, one operator at a time
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=420&lines=Internet+builder+%26+cyberspace+guardian;Anime+dreamer+%E3%81%8C%E5%A4%A2%E3%82%92%E6%92%AE%E3%82%8B;Turning+models+into+real-world+impact" alt="typing animation" />
+<img src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/typing.svg" alt="typing animation" />
 
 <p>
   <a href="https://github.com/tju-yxq"><img src="https://img.shields.io/github/followers/tju-yxq?style=social" alt="GitHub followers" /></a>
@@ -55,16 +55,16 @@
 <div align="center">
 
 <a href="https://github.com/tju-yxq">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/stats.svg" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/tju-yxq">
-  <img height="165" src="https://streak-stats.demolab.com?user=tju-yxq&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img height="165" src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/streak.svg" alt="GitHub Streak" />
 </a>
 
 <br />
 
 <a href="https://github.com/tju-yxq">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/top-langs.svg" alt="Top Languages" />
 </a>
 
 </div>
@@ -77,7 +77,7 @@ Generated nightly via GitHub Actions — because even commits deserve some neon 
 
 <div align="center">
 
-![GitHub Snake](https://raw.githubusercontent.com/tju-yxq/tju-yxq/output/snake.svg)
+![GitHub Snake](https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/snake.svg)
 
 </div>
 
