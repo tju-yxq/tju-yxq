@@ -55,7 +55,7 @@
 <div align="center">
 
 <a href="https://github.com/tju-yxq">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/tju-yxq">
   <img height="165" src="https://streak-stats.demolab.com?user=tju-yxq&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
@@ -64,13 +64,7 @@
 <br />
 
 <a href="https://github.com/tju-yxq">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tju-yxq&theme=tokyonight" alt="Profile Details" />
-</a>
-
-<br />
-
-<a href="https://github.com/tju-yxq">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </a>
 
 </div>
