@@ -1,0 +1,70 @@
+name: Update profile snapshots
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily at 6am UTC
+  workflow_dispatch:
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: tju-yxq
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg
+
+      - name: Fetch SVG snapshots
+        run: |
+          mkdir -p assets
+
+          # Contribution snake
+          cp dist/snake.svg assets/snake.svg
+          cp dist/snake-dark.svg assets/snake-dark.svg
+
+          # Typing animation
+          curl -sL "https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=420&lines=Internet+builder+%26+cyberspace+guardian;Anime+dreamer+%E3%81%8C%E5%A4%A2%E3%82%92%E6%92%AE%E3%82%8B;Turning+models+into+real-world+impact" -o assets/typing.svg
+
+          # GitHub Stats card (try primary, fall back to alternate instance)
+          for base in "github-readme-stats.vercel.app" "github-readme-stats-eight-theta.vercel.app"; do
+            curl -sL "https://${base}/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" -o assets/stats.svg
+            if grep -q "<svg" assets/stats.svg; then echo "stats.svg ok (${base})"; break; fi
+          done
+
+          # Top Languages
+          for base in "github-readme-stats.vercel.app" "github-readme-stats-eight-theta.vercel.app"; do
+            curl -sL "https://${base}/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true" -o assets/top-langs.svg
+            if grep -q "<svg" assets/top-langs.svg; then echo "top-langs.svg ok (${base})"; break; fi
+          done
+
+          # Streak stats
+          curl -sL "https://streak-stats.demolab.com?user=tju-yxq&theme=tokyonight&hide_border=true" -o assets/streak.svg
+
+          # Validate all SVGs — remove any that are not valid
+          for f in assets/*.svg; do
+            if [ -f "$f" ] && ! grep -q "<svg" "$f"; then
+              echo "WARNING: $f is not a valid SVG, removing"
+              rm -f "$f"
+            fi
+          done
+
+          ls -la assets/
+
+      - name: Commit snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update profile stat snapshots"
+            git push
+          fi
