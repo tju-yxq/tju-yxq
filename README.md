@@ -14,9 +14,9 @@
 
 <p>
   <a href="#-spotlight">Spotlight</a> ·
-  <a href="#-tech-arsenal">Tech</a> ·
   <a href="#-signal--stats">Stats</a> ·
   <a href="#-contribution-snake">Snake</a> ·
+  <a href="#-anime--life">Life</a> ·
   <a href="#-lets-connect">Contact</a>
 </p>
 
@@ -38,18 +38,6 @@
 
 ---
 
-## 🧰 Tech Arsenal
-
-<div align="center">
-
-| Systems | AI/ML | Backend | Web | DevOps |
-| --- | --- | --- | --- | --- |
-| ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white) ![K8s](https://img.shields.io/badge/K8s-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white) ![Actions](https://img.shields.io/badge/Actions-181717?style=for-the-badge&logo=githubactions&logoColor=white) |
-
-</div>
-
----
-
 ## 📈 Signal & Stats
 
 <div align="center">
@@ -59,12 +47,6 @@
 </a>
 <a href="https://github.com/tju-yxq">
   <img height="165" src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/streak.svg" alt="GitHub Streak" />
-</a>
-
-<br />
-
-<a href="https://github.com/tju-yxq">
-  <img height="165" src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/top-langs.svg" alt="Top Languages" />
 </a>
 
 </div>
@@ -77,9 +59,22 @@ Generated nightly via GitHub Actions — because even commits deserve some neon 
 
 <div align="center">
 
-![GitHub Snake](https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/snake.svg">
+</picture>
 
 </div>
+
+---
+
+## 🌌 Anime & Life
+
+- 📺 2D lover with a weakness for mecha openings and electric-blue palettes.
+- 🎧 Coding playlist: city pop, synthwave, and anime OSTs.
+- 🎮 When AFK: rhythm games, garage kits, and chasing the next cosplay festival.
+- ✨ Motto: *Ship boldly, stay curious, keep it kawaii.*
 
 ---
 
