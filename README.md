@@ -29,7 +29,7 @@
 ## 🚀 Spotlight
 
 - 🎓 **Cyberspace Security** @ [Tianjin University](https://www.tju.edu.cn/) (2024 – 2028) · academic-year ranking **2/102** (weighted) / **1/102** (comprehensive)
-- 🏆 **Selected awards**: ISCC Finals 🥇 · Huawei Software Elite Challenge (regional) 🥇 ·  · Huawei ICT Ascend AI (national) 🥈 · 4C (national) 🥉 
+- 🏆 **Selected awards**: ISCC Finals 🥇 · Huawei Software Elite Challenge (regional) 🥇 · Huawei ICT Ascend AI (national) 🥈 · 4C (national) 🥉
 
 **🔬 Research directions** — full details on my [academic homepage](https://tju-yxq.github.io/):
 
