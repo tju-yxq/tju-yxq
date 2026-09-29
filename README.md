@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ Hi, I'm Xinqiang Yu 喻新强 — building the future, one agent at a time
+# ✨ Hi, I'm Xinqiang Yu — building the future, one agent at a time
 
 <img src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/typing.svg" alt="typing animation" />
 
@@ -29,8 +29,7 @@
 ## 🚀 Spotlight
 
 - 🎓 **Cyberspace Security** @ [Tianjin University](https://www.tju.edu.cn/) (2024 – 2028) · academic-year ranking **2/102** (weighted) / **1/102** (comprehensive)
-- 📄 Co-author of *"Beyond Retrieval: Bi-Temporal State Arbitration for Longitudinal Healthcare Agents"* — **KnowFM Workshop @ ACL 2026** [[Paper]](https://aclanthology.org/2026.knowfm-1.10/)
-- 🏆 **Selected awards**: ISCC Finals 🥇 · Huawei Software Elite Challenge (regional) 🥇 · CMC 🥇 (Tianjin #7) · MCM 🏅 Meritorious · Huawei ICT Ascend AI (national) 🥈 · 4C (national) 🥉 · NeurIPS Lux AI on Kaggle 🥉
+- 🏆 **Selected awards**: ISCC Finals 🥇 · Huawei Software Elite Challenge (regional) 🥇 ·  · Huawei ICT Ascend AI (national) 🥈 · 4C (national) 🥉 
 
 **🔬 Research directions** — full details on my [academic homepage](https://tju-yxq.github.io/):
 
@@ -47,7 +46,6 @@
 
 - 🏫 **Visiting Student** · Zhongguancun Academy, Beijing (北京中关村学院) — *Jul 2026 – Sep 2026*
 - 🔬 **Research Assistant** · Tsinghua Shenzhen International Graduate School (清华大学深圳国际研究生院) — *May 2026 – Present*
-- 🧪 **Undergraduate Researcher** · TankLab, Tianjin University — *Oct 2025 – Present* — inference performance analysis of text-to-video generation models & multi-model hybrid deployment for inference and training
 - 📡 **Research Intern (online)** · China Mobile — personalized LLM safety & trustworthy alignment — *concluded Mar 2026*
 
 ---
