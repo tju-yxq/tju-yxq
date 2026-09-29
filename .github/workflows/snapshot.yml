@@ -30,7 +30,7 @@ jobs:
           cp dist/snake-dark.svg assets/snake-dark.svg
 
           # Typing animation
-          curl -sL "https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=420&lines=Internet+builder+%26+cyberspace+guardian;Anime+dreamer+%E3%81%8C%E5%A4%A2%E3%82%92%E6%92%AE%E3%82%8B;Turning+models+into+real-world+impact" -o assets/typing.svg
+          curl -sL "https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=500&lines=AI+for+AI+%C2%B7+LLM+Safety+%C2%B7+Multi-Agent;Internet+builder+%26+cyberspace+guardian;Anime+dreamer+%E3%81%8C%E5%A4%A2%E3%82%92%E6%92%AE%E3%82%8B" -o assets/typing.svg
 
           # GitHub Stats card (try primary, fall back to alternate instance)
           for base in "github-readme-stats.vercel.app" "github-readme-stats-eight-theta.vercel.app"; do

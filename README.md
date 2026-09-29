@@ -1,19 +1,21 @@
 <div align="center">
 
-# ✨ Hi, I'm xdz — building the future, one operator at a time
+# ✨ Hi, I'm Xinqiang Yu 喻新强 — building the future, one agent at a time
 
 <img src="https://raw.githubusercontent.com/tju-yxq/tju-yxq/main/assets/typing.svg" alt="typing animation" />
 
 <p>
   <a href="https://github.com/tju-yxq"><img src="https://img.shields.io/github/followers/tju-yxq?style=social" alt="GitHub followers" /></a>
+  <a href="https://tju-yxq.github.io/"><img src="https://img.shields.io/badge/Homepage-tju--yxq.github.io-8A2BE2?style=flat-square" alt="Academic Homepage" /></a>
   <a href="mailto:yu2651701064@tju.edu.cn"><img src="https://img.shields.io/badge/Contact-yu2651701064%40tju.edu.cn-2ea44f?style=flat-square&logo=gmail" alt="Primary Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=tju-yxq&color=blueviolet&style=flat-square" alt="Profile Views" />
 </p>
 
-<sub>"Security-first engineer with a soft spot for neon lights and 2D worlds."</sub>
+<sub>"Cyberspace-security undergrad building and aligning multi-agent AI — with a soft spot for neon lights and 2D worlds."</sub>
 
 <p>
   <a href="#-spotlight">Spotlight</a> ·
+  <a href="#-academic-experience">Experience</a> ·
   <a href="#-signal--stats">Stats</a> ·
   <a href="#-contribution-snake">Snake</a> ·
   <a href="#-anime--life">Life</a> ·
@@ -26,15 +28,27 @@
 
 ## 🚀 Spotlight
 
-- 🎓 **Cyberspace Security** @ Tianjin University — turning research into production-ready infra.
-- 🏆 **Known for**: squeezing latency out of model serving, battle-testing pipelines, and translating research into shipping code.
-- 🎯 **Current missions**:
-  - 🎬 Inference acceleration for next-gen **video generation**.
-  - ⚡ **VLA & world models** for perception–action loops.
-  - 🧩 **Colocation** and scheduling for generative recommenders.
-  - 🧠 Multimodal modeling for **neurological risk prediction**.
+- 🎓 **Cyberspace Security** @ [Tianjin University](https://www.tju.edu.cn/) (2024 – 2028) · academic-year ranking **2/102** (weighted) / **1/102** (comprehensive)
+- 📄 Co-author of *"Beyond Retrieval: Bi-Temporal State Arbitration for Longitudinal Healthcare Agents"* — **KnowFM Workshop @ ACL 2026** [[Paper]](https://aclanthology.org/2026.knowfm-1.10/)
+- 🏆 **Selected awards**: ISCC Finals 🥇 · Huawei Software Elite Challenge (regional) 🥇 · CMC 🥇 (Tianjin #7) · MCM 🏅 Meritorious · Huawei ICT Ascend AI (national) 🥈 · 4C (national) 🥉 · NeurIPS Lux AI on Kaggle 🥉
+
+**🔬 Research directions** — full details on my [academic homepage](https://tju-yxq.github.io/):
+
+- 🤖 **AI for AI** — automating AI research with AI: **AutoSFT**, a multi-agent harness that automates SFT data research by iteratively rewriting the training data recipe with the training stack frozen; and **equiNAS**, a typed DSL for certified evolution of equivariant architectures, where every LLM-proposed mutation is machine-checked for type safety, equivariance, and dimension consistency before any GPU time is spent.
+- 🛡️ **LLM Safety** — post-training safety alignment of large language models: safety-aware preference optimization, personalized safety adaptation, and multi-turn jailbreak robustness.
+- 🕸️ **Multi-Agent Systems** — multi-agent collaboration for security and competition: adversarial multi-agent scoring (4C), multi-agent RL (NeurIPS Lux AI Season 3, Kaggle bronze), and an **AutoHunter-style multi-agent system for automated SRC vulnerability discovery**, with humans only as final reviewers.
+
 - 🌱 **Learning playlist**: [MIT Missing Semester (CN)](https://missing-semester-cn.github.io/) · [NTU ML 2025 (Hung-yi Lee)](https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.php) · [MIT 6.1600 Security](https://61600.csail.mit.edu/2023/)
-- 📌 **Now shipping**: automation-heavy workflows, observability-first systems, and a sprinkle of anime aesthetics.
+- 📌 **Now**: assembling the SRC bug-hunting agent crew — target collectors, recon workers, exploitability reviewers, and a hunter that goes for mass exploitation.
+
+---
+
+## 🎓 Academic Experience
+
+- 🏫 **Visiting Student** · Zhongguancun Academy, Beijing (北京中关村学院) — *Jul 2026 – Sep 2026*
+- 🔬 **Research Assistant** · Tsinghua Shenzhen International Graduate School (清华大学深圳国际研究生院) — *May 2026 – Present*
+- 🧪 **Undergraduate Researcher** · TankLab, Tianjin University — *Oct 2025 – Present* — inference performance analysis of text-to-video generation models & multi-model hybrid deployment for inference and training
+- 📡 **Research Intern (online)** · China Mobile — personalized LLM safety & trustworthy alignment — *concluded Mar 2026*
 
 ---
 
@@ -81,6 +95,9 @@ Generated nightly via GitHub Actions — because even commits deserve some neon 
 ## 🤝 Let's Connect
 
 <div align="center">
+  <a href="https://tju-yxq.github.io/">
+    <img src="https://img.shields.io/badge/-Academic_Homepage-8A2BE2?style=for-the-badge" alt="Academic Homepage" />
+  </a>
   <a href="https://github.com/tju-yxq">
     <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
@@ -93,7 +110,7 @@ Generated nightly via GitHub Actions — because even commits deserve some neon 
 
 <div align="center">
 
-"Optimizing AI models with cyberpunk energy and anime spirit." 🚀
+"Teaching AI to build AI — with cyberpunk energy and anime spirit." 🚀
 
 **⭐ From [tju-yxq](https://github.com/tju-yxq) with 💙**
 
