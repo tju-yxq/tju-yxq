@@ -11,16 +11,6 @@
   <img src="https://komarev.com/ghpvc/?username=tju-yxq&color=blueviolet&style=flat-square" alt="Profile Views" />
 </p>
 
-<sub>"Cyberspace-security undergrad building and aligning multi-agent AI — with a soft spot for neon lights and 2D worlds."</sub>
-
-<p>
-  <a href="#-spotlight">Spotlight</a> ·
-  <a href="#-academic-experience">Experience</a> ·
-  <a href="#-signal--stats">Stats</a> ·
-  <a href="#-contribution-snake">Snake</a> ·
-  <a href="#-anime--life">Life</a> ·
-  <a href="#-lets-connect">Contact</a>
-</p>
 
 </div>
 
