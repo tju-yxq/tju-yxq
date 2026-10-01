@@ -71,31 +71,6 @@ Generated nightly via GitHub Actions — because even commits deserve some neon 
 
 ---
 
-## 🌌 Anime & Life
-
-- 📺 2D lover with a weakness for mecha openings and electric-blue palettes.
-- 🎧 Coding playlist: city pop, synthwave, and anime OSTs.
-- 🎮 When AFK: rhythm games, garage kits, and chasing the next cosplay festival.
-- ✨ Motto: *Ship boldly, stay curious, keep it kawaii.*
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-  <a href="https://tju-yxq.github.io/">
-    <img src="https://img.shields.io/badge/-Academic_Homepage-8A2BE2?style=for-the-badge" alt="Academic Homepage" />
-  </a>
-  <a href="https://github.com/tju-yxq">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub" />
-  </a>
-  <a href="mailto:yu2651701064@tju.edu.cn">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
-
----
-
 <div align="center">
 
 "Teaching AI to build AI — with cyberpunk energy and anime spirit." 🚀
