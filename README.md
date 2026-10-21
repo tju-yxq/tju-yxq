@@ -6,7 +6,8 @@
 
 <p>
   <a href="https://github.com/tju-yxq"><img src="https://img.shields.io/github/followers/tju-yxq?style=social" alt="GitHub followers" /></a>
-  <a href="https://tju-yxq.github.io/"><img src="https://img.shields.io/badge/Homepage-tju--yxq.github.io-8A2BE2?style=flat-square" alt="Academic Homepage" /></a>
+  <a href="https://tju-yxq.github.io/homepage/"><img src="https://img.shields.io/badge/Homepage-tju--yxq.github.io%2Fhomepage-8A2BE2?style=flat-square" alt="Academic Homepage" /></a>
+  <a href="https://tju-yxq.github.io/wiki/"><img src="https://img.shields.io/badge/Notes-Wiki-2f7a63?style=flat-square&logo=readthedocs&logoColor=white" alt="Notes Wiki" /></a>
   <a href="mailto:yu2651701064@tju.edu.cn"><img src="https://img.shields.io/badge/Contact-yu2651701064%40tju.edu.cn-2ea44f?style=flat-square&logo=gmail" alt="Primary Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=tju-yxq&color=blueviolet&style=flat-square" alt="Profile Views" />
 </p>
@@ -21,7 +22,7 @@
 - 🎓 **Cyberspace Security** @ [Tianjin University](https://www.tju.edu.cn/) (2024 – 2028) · academic-year ranking **2/102** (weighted) / **1/102** (comprehensive)
 - 🏆 **Selected awards**: ISCC Finals 🥇 · Huawei Software Elite Challenge (regional) 🥇 · Huawei ICT Ascend AI (national) 🥈 · 4C (national) 🥉
 
-**🔬 Research directions** — full details on my [academic homepage](https://tju-yxq.github.io/):
+**🔬 Research directions** — full details on my [academic homepage](https://tju-yxq.github.io/homepage/), working notes on my [wiki](https://tju-yxq.github.io/wiki/):
 
 - 🤖 **AI for AI** — automating AI research with AI: **AutoSFT**, a multi-agent harness that automates SFT data research by iteratively rewriting the training data recipe with the training stack frozen; and **equiNAS**, a typed DSL for certified evolution of equivariant architectures, where every LLM-proposed mutation is machine-checked for type safety, equivariance, and dimension consistency before any GPU time is spent.
 - 🛡️ **LLM Safety** — post-training safety alignment of large language models: safety-aware preference optimization, personalized safety adaptation, and multi-turn jailbreak robustness.
