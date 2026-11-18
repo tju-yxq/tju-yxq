@@ -11,10 +11,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Generate contribution snake
-        uses: Platane/snk@v3
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: tju-yxq
           outputs: |
@@ -23,37 +23,59 @@ jobs:
 
       - name: Fetch SVG snapshots
         run: |
+          set -euo pipefail
           mkdir -p assets
+          tmp_dir=$(mktemp -d)
+          trap 'rm -rf "$tmp_dir"' EXIT
+
+          is_valid_svg() {
+            local file="$1"
+            [ -s "$file" ] && grep -qi "<svg" "$file" && ! grep -qiE "Something went wrong|Rate limit|Could not fetch" "$file"
+          }
+
+          fetch_svg() {
+            local dest="$1"
+            shift
+            local tmp_file="$tmp_dir/$(basename "$dest")"
+            for url in "$@"; do
+              if curl -fsSL --connect-timeout 10 --max-time 30 "$url" -o "$tmp_file" && is_valid_svg "$tmp_file"; then
+                mv "$tmp_file" "$dest"
+                echo "Updated $dest"
+                return 0
+              fi
+              rm -f "$tmp_file"
+            done
+            echo "WARNING: Failed to fetch valid SVG for $dest, keeping existing file if present"
+            return 0
+          }
 
           # Contribution snake
-          cp dist/snake.svg assets/snake.svg
-          cp dist/snake-dark.svg assets/snake-dark.svg
-
-          # Typing animation
-          curl -sL "https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=500&lines=AI+for+AI+%C2%B7+LLM+Safety+%C2%B7+Multi-Agent;Internet+builder+%26+cyberspace+guardian;Anime+dreamer+%E3%81%8C%E5%A4%A2%E3%82%92%E6%92%AE%E3%82%8B" -o assets/typing.svg
-
-          # GitHub Stats card (try primary, fall back to alternate instance)
-          for base in "github-readme-stats.vercel.app" "github-readme-stats-eight-theta.vercel.app"; do
-            curl -sL "https://${base}/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" -o assets/stats.svg
-            if grep -q "<svg" assets/stats.svg; then echo "stats.svg ok (${base})"; break; fi
-          done
-
-          # Top Languages
-          for base in "github-readme-stats.vercel.app" "github-readme-stats-eight-theta.vercel.app"; do
-            curl -sL "https://${base}/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true" -o assets/top-langs.svg
-            if grep -q "<svg" assets/top-langs.svg; then echo "top-langs.svg ok (${base})"; break; fi
-          done
-
-          # Streak stats
-          curl -sL "https://streak-stats.demolab.com?user=tju-yxq&theme=tokyonight&hide_border=true" -o assets/streak.svg
-
-          # Validate all SVGs — remove any that are not valid
-          for f in assets/*.svg; do
-            if [ -f "$f" ] && ! grep -q "<svg" "$f"; then
-              echo "WARNING: $f is not a valid SVG, removing"
-              rm -f "$f"
+          for name in snake.svg snake-dark.svg; do
+            if [ -f "dist/$name" ] && is_valid_svg "dist/$name"; then
+              cp "dist/$name" "assets/$name"
+              echo "Updated assets/$name"
+            else
+              echo "WARNING: dist/$name is missing or invalid, keeping existing file if present"
             fi
           done
+
+          # Typing animation
+          fetch_svg "assets/typing.svg" \
+            "https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=500&lines=AI+for+AI+%C2%B7+LLM+Safety+%C2%B7+Multi-Agent;Internet+builder+%26+cyberspace+guardian;Anime+dreamer+%E3%81%8C%E5%A4%A2%E3%82%92%E6%92%AE%E3%82%8B"
+
+          # GitHub Stats card (try primary, fall back to alternate instance)
+          fetch_svg "assets/stats.svg" \
+            "https://github-readme-stats.vercel.app/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" \
+            "https://github-readme-stats-eight-theta.vercel.app/api?username=tju-yxq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
+
+          # Top Languages
+          fetch_svg "assets/top-langs.svg" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true" \
+            "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tju-yxq&layout=compact&theme=tokyonight&hide_border=true"
+
+          # Streak stats
+          fetch_svg "assets/streak.svg" \
+            "https://streak-stats.demolab.com?user=tju-yxq&theme=tokyonight&hide_border=true"
 
           ls -la assets/
 
